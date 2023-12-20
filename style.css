@@ -1,0 +1,25 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 250px;
+    display: flex;
+ justify-content: center;
+  overflow: hidden;
+  background-image: url(https://www.shutterstock.com/image-vector/vector-illustration-indian-tricolor-flag-260nw-1900192624.jpg);
+background-size: cover;
+  background-repeat: no-repeat;
+  color:darkblue;
+  
+  }
+
+  #independenceDayImage {
+    display: none;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+
+ 
+

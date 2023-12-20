@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="countdown">10</div>
+  <img id="independenceDayImage"
+  src="https://www.wishesmsg.com/wp-content/uploads/Happy-Independence-Day-Wishes-Images.jpg"
+  alt="Happy Independence Day Image">
+  <script>
+    setTimeout(function () {
+      document.getElementById('countdown').innerText = '10';
+      setTimeout(function () {
+        document.getElementById('countdown').innerText = '9';
+        setTimeout(function () {
+          document.getElementById('countdown').innerText = '8';
+          setTimeout(function () {
+            document.getElementById('countdown').innerText = '7';
+            setTimeout(function () {
+              document.getElementById('countdown').innerText = '6';
+              setTimeout(function () {
+                document.getElementById('countdown').innerText = '5';
+                setTimeout(function () {
+                  document.getElementById('countdown').innerText = '4';
+                  setTimeout(function () {
+                    document.getElementById('countdown').innerText = '3';
+                    setTimeout(function () {
+                      document.getElementById('countdown').innerText = '2';
+                      setTimeout(function () {
+                        document.getElementById('countdown').innerText = '1';
+                        setTimeout(function () {
+                          document.getElementById('countdown').style.display = 'none';
+                          document.getElementById('independenceDayImage').style.display = 'block';
+                        }, 1000);
+                      }, 1000);
+                    }, 1000);
+                  }, 1000);
+                }, 1000);
+              }, 1000);
+            }, 1000);
+          }, 1000);
+        }, 1000);
+      }, 1000);
+    }, 1000);
+  </script>
+
+</body>
+
+</html>
